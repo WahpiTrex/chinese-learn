@@ -1115,14 +1115,34 @@ body {
         min-height: 100dvh;
     }
 
-    /* Force hide character bar on mobile */
+    /* Character bar - compact horizontal scroll */
     .character-bar {
-        display: none !important;
+        display: flex !important;
+        flex-wrap: nowrap !important;
+        overflow-x: auto;
+        overflow-y: hidden;
+        gap: 4px;
+        padding: 4px 6px;
+        margin-bottom: 4px;
+        max-height: 32px;
+        border-radius: 6px;
+        border-width: 1px;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    .character-bar::-webkit-scrollbar {
+        display: none;
+    }
+
+    .char-item {
+        font-size: 0.75rem;
+        padding: 2px 4px;
+        flex-shrink: 0;
     }
 
     /* Game screen specific */
     #game-screen {
-        padding-top: 6px;
+        padding-top: 4px;
     }
 
     /* Top Bar - Smaller */
