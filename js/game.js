@@ -280,11 +280,7 @@ const Game = {
             return;
         }
 
-        // Check if we need to show a review
-        if (this.reviewQueue.length > 0 && this.wordsLearnedInSession % this.reviewInterval === 0 && this.wordsLearnedInSession > 0) {
-            this.showReview();
-            return;
-        }
+        // Skip review for now - removed as it was too aggressive
 
         // Check if we should show a sentence
         if (this.wordsLearnedInSession > 0 && this.wordsLearnedInSession % this.wordsBeforeSentence === 0) {
@@ -303,18 +299,12 @@ const Game = {
     },
 
     /**
-     * Check if word is first time being shown
+     * Check if word is first time being shown (check the word itself, not individual chars)
      */
     isFirstTimeWord(character) {
         const progress = Storage.getProgress();
-        const learnedChars = progress.learnedCharacters || [];
-        // Check if any character in the word has been learned
-        for (const char of character) {
-            if (learnedChars.includes(char)) {
-                return false;
-            }
-        }
-        return true;
+        const learnedWords = progress.learnedWords || [];
+        return !learnedWords.includes(character);
     },
 
     /**
@@ -656,22 +646,17 @@ const Game = {
 
         this.showFeedback(isCorrect);
 
-        if (isCorrect && this.currentPhase !== 'review') {
+        if (isCorrect) {
             this.markAsLearned(this.currentWord.character);
-            // Add to review queue for later
-            this.reviewQueue.push(this.currentWord);
         }
 
         setTimeout(() => {
             this.hideFeedback();
 
             if (isCorrect) {
-                if (this.currentPhase !== 'review') {
-                    this.currentWordIndex++;
-                    this.wordsLearnedInSession++;
-                    this.saveProgress();
-                }
-                this.currentPhase = 'teach';
+                this.currentWordIndex++;
+                this.wordsLearnedInSession++;
+                this.saveProgress();
             }
 
             this.showNextItem();
@@ -683,15 +668,24 @@ const Game = {
      */
     markAsLearned(character) {
         const progress = Storage.getProgress();
+
+        // Track individual characters
         if (!progress.learnedCharacters) {
             progress.learnedCharacters = [];
         }
-
         [...character].forEach(char => {
             if (!progress.learnedCharacters.includes(char)) {
                 progress.learnedCharacters.push(char);
             }
         });
+
+        // Track whole words for first-time detection
+        if (!progress.learnedWords) {
+            progress.learnedWords = [];
+        }
+        if (!progress.learnedWords.includes(character)) {
+            progress.learnedWords.push(character);
+        }
 
         Storage.saveProgress(progress);
     },
