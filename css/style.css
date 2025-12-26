@@ -1062,34 +1062,182 @@ body {
     }
 }
 
-/* Responsive */
-@media (max-width: 600px) {
-    .chinese-logo {
-        font-size: 4rem;
-    }
-
-    .welcome-card h1 {
-        font-size: 2rem;
-    }
-
-    .chinese-text {
-        font-size: 3rem;
-    }
-
-    .options-grid {
-        grid-template-columns: 1fr;
-    }
-
-    .option-btn.chinese {
-        font-size: 1.5rem;
-    }
-
-    .stats-summary {
-        grid-template-columns: 1fr;
+/* Responsive - Tablet */
+@media (max-width: 768px) {
+    .screen {
+        padding: var(--sp-md);
     }
 
     .character-bar {
+        gap: 6px;
+        padding: var(--sp-sm);
+    }
+
+    .char-item {
         font-size: 0.9rem;
+        padding: 4px 8px;
+    }
+
+    .game-card {
+        padding: var(--sp-lg);
+    }
+
+    .chinese-text {
+        font-size: 3.5rem;
+    }
+
+    .pinyin-hint {
+        font-size: 1.1rem;
+    }
+
+    .modal-content {
+        margin: var(--sp-md);
+        max-height: 85vh;
+    }
+}
+
+/* Responsive - Mobile */
+@media (max-width: 480px) {
+    :root {
+        --sp-lg: 20px;
+        --sp-xl: 24px;
+        --sp-2xl: 32px;
+    }
+
+    .glow-border {
+        border-width: 2px;
+    }
+
+    .screen {
+        padding: var(--sp-sm);
+        padding-top: var(--sp-md);
+    }
+
+    /* Welcome */
+    .welcome-card {
+        padding: var(--sp-lg);
+    }
+
+    .chinese-logo {
+        font-size: 3.5rem;
+    }
+
+    .welcome-card h1 {
+        font-size: 1.8rem;
+    }
+
+    .subtitle {
+        font-size: 1rem;
+    }
+
+    .description {
+        font-size: 0.9rem;
+    }
+
+    .primary-btn {
+        width: 100%;
+        padding: var(--sp-md);
+    }
+
+    /* Top Bar */
+    .top-bar {
+        margin-bottom: var(--sp-md);
+    }
+
+    .icon-btn {
+        width: 40px;
+        height: 40px;
+    }
+
+    .level-indicator span:first-child {
+        font-size: 1.5rem;
+    }
+
+    /* Character Bar */
+    .character-bar {
+        gap: 5px;
+        padding: var(--sp-sm);
+        margin-bottom: var(--sp-md);
+        max-height: 100px;
+        overflow-y: auto;
+    }
+
+    .char-item {
+        font-size: 0.85rem;
+        padding: 3px 6px;
+    }
+
+    .char-item.current {
+        transform: scale(1.1);
+    }
+
+    /* Progress */
+    .progress-container {
+        margin-bottom: var(--sp-md);
+    }
+
+    .progress-bar {
+        height: 6px;
+    }
+
+    .progress-text {
+        font-size: 0.8rem;
+        min-width: 50px;
+    }
+
+    /* Game Card */
+    .game-card {
+        padding: var(--sp-md);
+        border-radius: var(--radius-md);
+    }
+
+    .question-type {
+        font-size: 0.8rem;
+    }
+
+    .chinese-text {
+        font-size: 2.8rem;
+    }
+
+    .turkish-text {
+        font-size: 1.5rem;
+    }
+
+    .pinyin-hint {
+        font-size: 1rem;
+        margin-bottom: var(--sp-sm);
+    }
+
+    .inline-meaning {
+        font-size: 1.2rem;
+        padding: var(--sp-xs) var(--sp-sm);
+    }
+
+    /* Options */
+    .options-grid {
+        grid-template-columns: 1fr;
+        gap: var(--sp-sm);
+    }
+
+    .option-btn {
+        padding: var(--sp-md);
+        font-size: 1rem;
+        min-height: 56px;
+    }
+
+    .option-btn.chinese {
+        font-size: 1.4rem;
+    }
+
+    /* Sentence Builder */
+    .sentence-result {
+        min-height: 60px;
+        padding: var(--sp-md);
+    }
+
+    .selected-part {
+        font-size: 1.2rem;
+        padding: 6px 10px;
     }
 
     .sentence-part-btn {
@@ -1097,7 +1245,145 @@ body {
         padding: var(--sp-sm) var(--sp-md);
     }
 
-    .selected-part {
+    .sentence-actions {
+        flex-direction: column;
+        gap: var(--sp-sm);
+    }
+
+    .sentence-actions button {
+        width: 100%;
+    }
+
+    /* Tooltip */
+    .char-tooltip {
+        min-width: 140px;
+        padding: var(--sp-sm);
+    }
+
+    .tooltip-char {
+        font-size: 1.8rem;
+    }
+
+    /* Modals */
+    .modal {
+        padding: var(--sp-sm);
+    }
+
+    .modal-content {
+        border-radius: var(--radius-md);
+        max-height: 90vh;
+    }
+
+    .modal-header {
+        padding: var(--sp-md);
+    }
+
+    .modal-header h2 {
+        font-size: 1.1rem;
+    }
+
+    .modal-body {
+        padding: var(--sp-md);
+    }
+
+    .setting-item {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: var(--sp-sm);
+    }
+
+    .progress-code-container {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .stats-summary {
+        grid-template-columns: 1fr;
+    }
+
+    .stat-card {
+        padding: var(--sp-sm);
+    }
+
+    .stat-value {
+        font-size: 1.5rem;
+    }
+
+    /* Level Complete */
+    .level-complete-content {
+        padding: var(--sp-lg);
+        margin: var(--sp-md);
+    }
+
+    .complete-icon {
+        font-size: 3.5rem;
+    }
+
+    .level-complete-content h2 {
+        font-size: 1.5rem;
+    }
+
+    /* Feedback */
+    .feedback-content {
+        padding: var(--sp-lg);
+    }
+
+    .feedback-icon {
+        font-size: 3rem;
+    }
+
+    .feedback-text {
         font-size: 1.2rem;
+    }
+}
+
+/* Extra small devices */
+@media (max-width: 360px) {
+    .chinese-text {
+        font-size: 2.2rem;
+    }
+
+    .option-btn {
+        padding: var(--sp-sm) var(--sp-md);
+        min-height: 48px;
+    }
+
+    .option-btn.chinese {
+        font-size: 1.2rem;
+    }
+
+    .char-item {
+        font-size: 0.75rem;
+    }
+}
+
+/* Touch-friendly improvements */
+@media (hover: none) and (pointer: coarse) {
+    .option-btn:hover {
+        transform: none;
+        box-shadow: 0 0 15px rgba(0, 212, 170, 0.2);
+    }
+
+    .option-btn:active {
+        transform: scale(0.98);
+        background: rgba(0, 212, 170, 0.2);
+    }
+
+    .char-item:hover {
+        background: rgba(0, 212, 170, 0.15);
+        color: var(--accent);
+    }
+
+    .char-item:active {
+        transform: scale(0.95);
+    }
+}
+
+/* Safe area for notch devices */
+@supports (padding: max(0px)) {
+    .screen {
+        padding-left: max(var(--sp-md), env(safe-area-inset-left));
+        padding-right: max(var(--sp-md), env(safe-area-inset-right));
+        padding-bottom: max(var(--sp-md), env(safe-area-inset-bottom));
     }
 }
