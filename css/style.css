@@ -1097,293 +1097,334 @@ body {
 }
 
 /* Responsive - Mobile */
-@media (max-width: 480px) {
+@media (max-width: 600px) {
     :root {
-        --sp-lg: 20px;
-        --sp-xl: 24px;
-        --sp-2xl: 32px;
+        --sp-sm: 4px;
+        --sp-md: 8px;
+        --sp-lg: 12px;
+        --sp-xl: 16px;
     }
 
     .glow-border {
-        border-width: 2px;
+        display: none !important;
     }
 
     .screen {
-        padding: var(--sp-sm);
-        padding-top: var(--sp-md);
+        padding: 6px;
+        min-height: 100vh;
+        min-height: 100dvh;
     }
 
-    /* Welcome */
-    .welcome-card {
-        padding: var(--sp-lg);
+    /* Force hide character bar on mobile */
+    .character-bar {
+        display: none !important;
     }
 
-    .chinese-logo {
-        font-size: 3.5rem;
+    /* Game screen specific */
+    #game-screen {
+        padding-top: 6px;
     }
 
-    .welcome-card h1 {
-        font-size: 1.8rem;
-    }
-
-    .subtitle {
-        font-size: 1rem;
-    }
-
-    .description {
-        font-size: 0.9rem;
-    }
-
-    .primary-btn {
-        width: 100%;
-        padding: var(--sp-md);
-    }
-
-    /* Top Bar */
+    /* Top Bar - Smaller */
     .top-bar {
-        margin-bottom: var(--sp-md);
+        margin-bottom: 6px;
     }
 
     .icon-btn {
-        width: 40px;
-        height: 40px;
+        width: 32px;
+        height: 32px;
+    }
+
+    .icon-btn svg {
+        width: 16px;
+        height: 16px;
     }
 
     .level-indicator span:first-child {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
     }
 
-    /* Character Bar */
-    .character-bar {
-        gap: 5px;
-        padding: var(--sp-sm);
-        margin-bottom: var(--sp-md);
-        max-height: 100px;
-        overflow-y: auto;
+    .level-text {
+        font-size: 0.55rem;
     }
 
-    .char-item {
-        font-size: 0.85rem;
-        padding: 3px 6px;
-    }
-
-    .char-item.current {
-        transform: scale(1.1);
-    }
-
-    /* Progress */
+    /* Progress - Tiny */
     .progress-container {
-        margin-bottom: var(--sp-md);
+        margin-bottom: 6px;
     }
 
     .progress-bar {
-        height: 6px;
+        height: 3px;
     }
 
     .progress-text {
-        font-size: 0.8rem;
-        min-width: 50px;
+        font-size: 0.7rem;
+        min-width: 35px;
     }
 
-    /* Game Card */
+    /* Game Container - Flex fill */
+    .game-container {
+        gap: 8px;
+        flex: 1;
+        justify-content: center;
+    }
+
+    /* Game Card - Compact */
     .game-card {
-        padding: var(--sp-md);
-        border-radius: var(--radius-md);
+        padding: 10px;
+        border-radius: 8px;
+        border-width: 1px;
     }
 
     .question-type {
-        font-size: 0.8rem;
+        font-size: 0.65rem;
+        margin-bottom: 4px;
+    }
+
+    .question {
+        margin-bottom: 4px;
     }
 
     .chinese-text {
-        font-size: 2.8rem;
+        font-size: 2.2rem;
     }
 
     .turkish-text {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
     }
 
     .pinyin-hint {
-        font-size: 1rem;
-        margin-bottom: var(--sp-sm);
+        font-size: 0.85rem;
+        margin-bottom: 4px;
+    }
+
+    .word-type {
+        margin-top: 2px;
+    }
+
+    .type-badge {
+        font-size: 0.6rem;
+        padding: 1px 4px;
     }
 
     .inline-meaning {
-        font-size: 1.2rem;
-        padding: var(--sp-xs) var(--sp-sm);
+        font-size: 0.9rem;
+        padding: 3px 6px;
+        margin-top: 4px;
     }
 
-    /* Options */
+    /* Options - 2x2, Small */
     .options-grid {
-        grid-template-columns: 1fr;
-        gap: var(--sp-sm);
+        grid-template-columns: repeat(2, 1fr);
+        gap: 6px;
     }
 
     .option-btn {
-        padding: var(--sp-md);
-        font-size: 1rem;
-        min-height: 56px;
+        padding: 10px 6px;
+        font-size: 0.85rem;
+        min-height: 44px;
+        border-width: 1px;
     }
 
     .option-btn.chinese {
-        font-size: 1.4rem;
+        font-size: 1.1rem;
     }
 
     /* Sentence Builder */
     .sentence-result {
-        min-height: 60px;
-        padding: var(--sp-md);
+        min-height: 40px;
+        padding: 8px;
     }
 
     .selected-part {
-        font-size: 1.2rem;
-        padding: 6px 10px;
+        font-size: 0.9rem;
+        padding: 3px 6px;
     }
 
     .sentence-part-btn {
-        font-size: 1.1rem;
-        padding: var(--sp-sm) var(--sp-md);
+        font-size: 0.9rem;
+        padding: 6px 10px;
     }
 
     .sentence-actions {
-        flex-direction: column;
-        gap: var(--sp-sm);
+        gap: 6px;
     }
 
     .sentence-actions button {
-        width: 100%;
-    }
-
-    /* Tooltip */
-    .char-tooltip {
-        min-width: 140px;
-        padding: var(--sp-sm);
-    }
-
-    .tooltip-char {
-        font-size: 1.8rem;
+        padding: 8px 12px;
+        font-size: 0.8rem;
     }
 
     /* Modals */
     .modal {
-        padding: var(--sp-sm);
+        padding: 0;
     }
 
     .modal-content {
-        border-radius: var(--radius-md);
-        max-height: 90vh;
+        border-radius: 0;
+        max-height: 100dvh;
     }
 
     .modal-header {
-        padding: var(--sp-md);
+        padding: 10px;
     }
 
     .modal-header h2 {
-        font-size: 1.1rem;
+        font-size: 0.95rem;
     }
 
     .modal-body {
-        padding: var(--sp-md);
+        padding: 10px;
     }
 
     .setting-item {
         flex-direction: column;
-        align-items: flex-start;
-        gap: var(--sp-sm);
-    }
-
-    .progress-code-container {
-        width: 100%;
-        flex-direction: column;
+        gap: 6px;
+        padding: 8px 0;
     }
 
     .stats-summary {
-        grid-template-columns: 1fr;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 4px;
     }
 
     .stat-card {
-        padding: var(--sp-sm);
+        padding: 6px;
     }
 
     .stat-value {
-        font-size: 1.5rem;
+        font-size: 1rem;
     }
 
-    /* Level Complete */
-    .level-complete-content {
-        padding: var(--sp-lg);
-        margin: var(--sp-md);
-    }
-
-    .complete-icon {
-        font-size: 3.5rem;
-    }
-
-    .level-complete-content h2 {
-        font-size: 1.5rem;
+    .stat-label {
+        font-size: 0.55rem;
     }
 
     /* Feedback */
     .feedback-content {
-        padding: var(--sp-lg);
+        padding: 14px;
     }
 
     .feedback-icon {
-        font-size: 3rem;
+        font-size: 2rem;
     }
 
     .feedback-text {
+        font-size: 0.95rem;
+    }
+
+    /* Level Complete */
+    .level-complete-content {
+        padding: 16px;
+        margin: 10px;
+    }
+
+    .complete-icon {
+        font-size: 2.5rem;
+        margin-bottom: 10px;
+    }
+
+    .level-complete-content h2 {
         font-size: 1.2rem;
+    }
+
+    .level-complete-content p {
+        font-size: 0.85rem;
+        margin-bottom: 12px;
+    }
+
+    /* Welcome */
+    .welcome-card {
+        padding: 14px;
+    }
+
+    .logo {
+        margin-bottom: 6px;
+    }
+
+    .chinese-logo {
+        font-size: 2.5rem;
+    }
+
+    .welcome-card h1 {
+        font-size: 1.3rem;
+        margin-bottom: 2px;
+    }
+
+    .subtitle {
+        font-size: 0.85rem;
+        margin-bottom: 10px;
+    }
+
+    .description {
+        font-size: 0.8rem;
+        margin-bottom: 14px;
+    }
+
+    .primary-btn {
+        width: 100%;
+        padding: 10px;
+        font-size: 0.95rem;
+    }
+
+    .stats-preview {
+        margin-top: 12px;
+        padding: 8px;
+    }
+
+    /* Tooltip */
+    .char-tooltip {
+        min-width: 100px;
+        padding: 6px;
+    }
+
+    .tooltip-char {
+        font-size: 1.3rem;
+    }
+
+    .tooltip-pinyin {
+        font-size: 0.75rem;
+    }
+
+    .tooltip-meaning {
+        font-size: 0.7rem;
     }
 }
 
 /* Extra small devices */
 @media (max-width: 360px) {
     .chinese-text {
-        font-size: 2.2rem;
+        font-size: 1.8rem;
     }
 
     .option-btn {
-        padding: var(--sp-sm) var(--sp-md);
-        min-height: 48px;
+        padding: 8px 4px;
+        min-height: 40px;
+        font-size: 0.8rem;
     }
 
     .option-btn.chinese {
-        font-size: 1.2rem;
-    }
-
-    .char-item {
-        font-size: 0.75rem;
+        font-size: 1rem;
     }
 }
 
-/* Touch-friendly improvements */
+/* Touch-friendly */
 @media (hover: none) and (pointer: coarse) {
     .option-btn:hover {
         transform: none;
-        box-shadow: 0 0 15px rgba(0, 212, 170, 0.2);
     }
 
     .option-btn:active {
         transform: scale(0.98);
         background: rgba(0, 212, 170, 0.2);
     }
-
-    .char-item:hover {
-        background: rgba(0, 212, 170, 0.15);
-        color: var(--accent);
-    }
-
-    .char-item:active {
-        transform: scale(0.95);
-    }
 }
 
 /* Safe area for notch devices */
 @supports (padding: max(0px)) {
     .screen {
-        padding-left: max(var(--sp-md), env(safe-area-inset-left));
-        padding-right: max(var(--sp-md), env(safe-area-inset-right));
-        padding-bottom: max(var(--sp-md), env(safe-area-inset-bottom));
+        padding-left: max(6px, env(safe-area-inset-left));
+        padding-right: max(6px, env(safe-area-inset-right));
+        padding-bottom: max(6px, env(safe-area-inset-bottom));
     }
 }
