@@ -1143,6 +1143,11 @@ body {
         flex-shrink: 0;
     }
 
+    /* Allow hidden class to override */
+    .character-bar.hidden {
+        display: none !important;
+    }
+
     /* Game screen specific */
     #game-screen {
         padding-top: 4px;
