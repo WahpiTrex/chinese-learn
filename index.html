@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Çince Öğren | 学中文</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Glow Border -->
+    <div class="glow-border"></div>
+
+    <!-- Welcome Screen -->
+    <div id="welcome-screen" class="screen active">
+        <div class="welcome-card">
+            <div class="logo">
+                <span class="chinese-logo">学</span>
+            </div>
+            <h1>Çince Öğren</h1>
+            <p class="subtitle">学中文 - Xué Zhōngwén</p>
+            <p class="description">
+                Temel Çince karakterleri, pinyin okumalarını ve anlamlarını 
+                interaktif bir şekilde öğrenin.
+            </p>
+            <button id="start-btn" class="primary-btn">
+                <span>Başla</span>
+                <span class="btn-glow"></span>
+            </button>
+            <div class="stats-preview" id="stats-preview">
+                <!-- Will be populated by JS if there's saved progress -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Game Screen -->
+    <div id="game-screen" class="screen">
+        <!-- Top Bar -->
+        <div class="top-bar">
+            <button id="settings-btn" class="icon-btn" title="Ayarlar">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="12" cy="12" r="3"></circle>
+                    <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path>
+                </svg>
+            </button>
+            <div class="level-indicator">
+                <span id="current-level">1</span>
+                <span class="level-text">SEVİYE</span>
+            </div>
+            <button id="stats-btn" class="icon-btn" title="İstatistikler">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M18 20V10"></path>
+                    <path d="M12 20V4"></path>
+                    <path d="M6 20v-6"></path>
+                </svg>
+            </button>
+        </div>
+
+        <!-- Character Bar -->
+        <div id="character-bar" class="character-bar">
+            <!-- Will be populated by JS -->
+        </div>
+
+        <!-- Progress Bar -->
+        <div class="progress-container">
+            <div class="progress-bar">
+                <div id="progress-fill" class="progress-fill"></div>
+            </div>
+            <span id="progress-text" class="progress-text">0 / 0</span>
+        </div>
+
+        <!-- Main Game Card -->
+        <div class="game-container">
+            <div class="game-card">
+                <div class="question-type" id="question-type">Çince → Türkçe</div>
+                <div class="question" id="question">
+                    <span class="chinese-text">你好</span>
+                </div>
+                <div class="pinyin-hint" id="pinyin-hint">nǐ hǎo</div>
+                <div class="word-type" id="word-type">
+                    <span class="type-badge">phrase</span>
+                </div>
+            </div>
+
+            <!-- Answer Options -->
+            <div class="options-grid" id="options-grid">
+                <!-- Will be populated by JS -->
+            </div>
+        </div>
+
+        <!-- Feedback Overlay -->
+        <div id="feedback-overlay" class="feedback-overlay">
+            <div class="feedback-content">
+                <span class="feedback-icon">✓</span>
+                <span class="feedback-text">Doğru!</span>
+            </div>
+        </div>
+
+        <!-- Level Complete Overlay -->
+        <div id="level-complete-overlay" class="level-complete-overlay">
+            <div class="level-complete-content">
+                <span class="complete-icon">🌟</span>
+                <h2>Seviye Tamamlandı!</h2>
+                <p id="level-complete-text">Seviye 1 başarıyla tamamlandınız.</p>
+                <button id="next-level-btn" class="primary-btn">Sonraki Seviye</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Statistics Modal -->
+    <div id="stats-modal" class="modal">
+        <div class="modal-content stats-modal-content">
+            <div class="modal-header">
+                <h2>📊 İstatistikler</h2>
+                <button class="close-btn" data-close="stats-modal">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="stats-summary" id="stats-summary">
+                    <!-- Will be populated by JS -->
+                </div>
+                <div class="stats-grid" id="stats-grid">
+                    <!-- Will be populated by JS -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Settings Modal -->
+    <div id="settings-modal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>⚙️ Ayarlar</h2>
+                <button class="close-btn" data-close="settings-modal">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="setting-item">
+                    <label for="show-pinyin">Pinyin Göster</label>
+                    <input type="checkbox" id="show-pinyin" checked>
+                </div>
+                <div class="setting-item">
+                    <label for="show-character-bar">Karakter Barı Göster</label>
+                    <input type="checkbox" id="show-character-bar" checked>
+                </div>
+                <div class="setting-item">
+                    <label for="quiz-mode">Quiz Modu</label>
+                    <select id="quiz-mode">
+                        <option value="chinese-to-turkish">Çince → Türkçe</option>
+                        <option value="turkish-to-chinese">Türkçe → Çince</option>
+                        <option value="mixed">Karışık</option>
+                    </select>
+                </div>
+                <hr>
+                <div class="setting-item">
+                    <label>İlerleme Kodu</label>
+                    <div class="progress-code-container">
+                        <input type="text" id="progress-code" readonly>
+                        <button id="copy-code-btn" class="small-btn">Kopyala</button>
+                    </div>
+                </div>
+                <div class="setting-item">
+                    <label>İlerleme Yükle</label>
+                    <div class="progress-code-container">
+                        <input type="text" id="load-code-input" placeholder="Kodu yapıştır...">
+                        <button id="load-code-btn" class="small-btn">Yükle</button>
+                    </div>
+                </div>
+                <hr>
+                <div class="setting-item danger-zone">
+                    <button id="reset-progress-btn" class="danger-btn">İlerlemeyi Sıfırla</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="js/storage.js"></script>
+    <script src="js/stats.js"></script>
+    <script src="js/game.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>

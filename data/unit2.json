@@ -1,0 +1,686 @@
+[
+    {
+        "lesson": 6,
+        "character": "大学",
+        "pinyin": "dàxué",
+        "meaning": "Üniversite"
+    },
+    {
+        "lesson": 6,
+        "character": "早上",
+        "pinyin": "zǎoshang",
+        "meaning": "Sabah"
+    },
+    {
+        "lesson": 6,
+        "character": "几",
+        "pinyin": "jǐ",
+        "meaning": "Kaç (10'dan küçük sayılar için)"
+    },
+    {
+        "lesson": 6,
+        "character": "点",
+        "pinyin": "diǎn",
+        "meaning": "Saat (Zaman birimi)"
+    },
+    {
+        "lesson": 6,
+        "character": "上课",
+        "pinyin": "shàng kè",
+        "meaning": "Derse girmek / Dersin başlaması"
+    },
+    {
+        "lesson": 6,
+        "character": "大部分",
+        "pinyin": "dà bùfen",
+        "meaning": "Çoğunluk / Büyük kısım"
+    },
+    {
+        "lesson": 6,
+        "character": "部分",
+        "pinyin": "bùfen",
+        "meaning": "Kısım / Bölüm"
+    },
+    {
+        "lesson": 6,
+        "character": "九",
+        "pinyin": "jiǔ",
+        "meaning": "Dokuz"
+    },
+    {
+        "lesson": 6,
+        "character": "我们",
+        "pinyin": "wǒmen",
+        "meaning": "Biz"
+    },
+    {
+        "lesson": 6,
+        "character": "八",
+        "pinyin": "bā",
+        "meaning": "Sekiz"
+    },
+    {
+        "lesson": 6,
+        "character": "五十",
+        "pinyin": "wǔshí",
+        "meaning": "Elli"
+    },
+    {
+        "lesson": 6,
+        "character": "分",
+        "pinyin": "fēn",
+        "meaning": "Dakika"
+    },
+    {
+        "lesson": 6,
+        "character": "下课",
+        "pinyin": "xià kè",
+        "meaning": "Dersten çıkmak / Dersin bitmesi"
+    },
+    {
+        "lesson": 6,
+        "character": "十",
+        "pinyin": "shí",
+        "meaning": "On"
+    },
+    {
+        "lesson": 6,
+        "character": "半",
+        "pinyin": "bàn",
+        "meaning": "Yarım / Buçuk"
+    },
+    {
+        "lesson": 6,
+        "character": "太...了",
+        "pinyin": "tài...le",
+        "meaning": "Çok... (Aşırılık belirtir, örn: Çok erken)"
+    },
+    {
+        "lesson": 6,
+        "character": "早",
+        "pinyin": "zǎo",
+        "meaning": "Erken"
+    },
+    {
+        "lesson": 6,
+        "character": "讲座",
+        "pinyin": "jiǎngzuò",
+        "meaning": "Konferans / Seminer"
+    },
+    {
+        "lesson": 6,
+        "character": "开始",
+        "pinyin": "kāishǐ",
+        "meaning": "Başlamak"
+    },
+    {
+        "lesson": 6,
+        "character": "六",
+        "pinyin": "liù",
+        "meaning": "Altı"
+    },
+    {
+        "lesson": 6,
+        "character": "现在",
+        "pinyin": "xiànzài",
+        "meaning": "Şu an / Şimdi"
+    },
+    {
+        "lesson": 6,
+        "character": "差",
+        "pinyin": "chà",
+        "meaning": "Eksik / Kala (Saat söylerken)"
+    },
+    {
+        "lesson": 6,
+        "character": "一",
+        "pinyin": "yī",
+        "meaning": "Bir"
+    },
+    {
+        "lesson": 6,
+        "character": "刻",
+        "pinyin": "kè",
+        "meaning": "Çeyrek (15 dakika)"
+    },
+    {
+        "lesson": 6,
+        "character": "一会儿",
+        "pinyin": "yíhuìr",
+        "meaning": "Birazdan / Kısa bir süre"
+    },
+    {
+        "lesson": 6,
+        "character": "见",
+        "pinyin": "jiàn",
+        "meaning": "Görüşmek / Görmek"
+    },
+    {
+        "lesson": 7,
+        "character": "明天",
+        "pinyin": "míngtiān",
+        "meaning": "Yarın"
+    },
+    {
+        "lesson": 7,
+        "character": "课",
+        "pinyin": "kè",
+        "meaning": "Ders"
+    },
+    {
+        "lesson": 7,
+        "character": "上午",
+        "pinyin": "shàngwǔ",
+        "meaning": "Öğleden önce / Sabah"
+    },
+    {
+        "lesson": 7,
+        "character": "下午",
+        "pinyin": "xiàwǔ",
+        "meaning": "Öğleden sonra"
+    },
+    {
+        "lesson": 7,
+        "character": "没有",
+        "pinyin": "méiyǒu",
+        "meaning": "Yok / Sahip değil"
+    },
+    {
+        "lesson": 7,
+        "character": "自行车",
+        "pinyin": "zìxíngchē",
+        "meaning": "Bisiklet"
+    },
+    {
+        "lesson": 7,
+        "character": "吧",
+        "pinyin": "ba",
+        "meaning": "...değil mi? / ...sanırım (Tahmin/Onaylama)"
+    },
+    {
+        "lesson": 7,
+        "character": "事",
+        "pinyin": "shì",
+        "meaning": "İş / Olay / Mesele"
+    },
+    {
+        "lesson": 7,
+        "character": "可是",
+        "pinyin": "kěshì",
+        "meaning": "Ama / Fakat"
+    },
+    {
+        "lesson": 7,
+        "character": "没问题",
+        "pinyin": "méi wèntí",
+        "meaning": "Sorun değil / Problem yok"
+    },
+    {
+        "lesson": 7,
+        "character": "钥匙",
+        "pinyin": "yàoshi",
+        "meaning": "Anahtar"
+    },
+    {
+        "lesson": 7,
+        "character": "车",
+        "pinyin": "chē",
+        "meaning": "Araç / Araba"
+    },
+    {
+        "lesson": 7,
+        "character": "下",
+        "pinyin": "xià",
+        "meaning": "Alt / Aşağı"
+    },
+    {
+        "lesson": 7,
+        "character": "车棚",
+        "pinyin": "chēpéng",
+        "meaning": "Bisiklet park yeri / Sundurma"
+    },
+    {
+        "lesson": 7,
+        "character": "里",
+        "pinyin": "lǐ",
+        "meaning": "İç / İçinde"
+    },
+    {
+        "lesson": 7,
+        "character": "后边",
+        "pinyin": "hòubian",
+        "meaning": "Arka taraf"
+    },
+    {
+        "lesson": 7,
+        "character": "今天",
+        "pinyin": "jīntiān",
+        "meaning": "Bugün"
+    },
+    {
+        "lesson": 7,
+        "character": "晚上",
+        "pinyin": "wǎnshang",
+        "meaning": "Akşam"
+    },
+    {
+        "lesson": 7,
+        "character": "时间",
+        "pinyin": "shíjiān",
+        "meaning": "Zaman / Vakit"
+    },
+    {
+        "lesson": 7,
+        "character": "电影院",
+        "pinyin": "diànyǐngyuàn",
+        "meaning": "Sinema"
+    },
+    {
+        "lesson": 7,
+        "character": "电影",
+        "pinyin": "diànyǐng",
+        "meaning": "Film"
+    },
+    {
+        "lesson": 7,
+        "character": "听说",
+        "pinyin": "tīngshuō",
+        "meaning": "Duyduğuma göre / Söylendiğine göre"
+    },
+    {
+        "lesson": 7,
+        "character": "有名",
+        "pinyin": "yǒumíng",
+        "meaning": "Ünlü / Meşhur"
+    },
+    {
+        "lesson": 7,
+        "character": "当然",
+        "pinyin": "dāngrán",
+        "meaning": "Elbette / Tabii ki"
+    },
+    {
+        "lesson": 8,
+        "character": "周末",
+        "pinyin": "zhōumò",
+        "meaning": "Hafta sonu"
+    },
+    {
+        "lesson": 8,
+        "character": "啊",
+        "pinyin": "a",
+        "meaning": "(Cümle sonu ünlem/duygu belirteci)"
+    },
+    {
+        "lesson": 8,
+        "character": "不过",
+        "pinyin": "búguò",
+        "meaning": "Ama / Yalnız (Hafif zıtlık)"
+    },
+    {
+        "lesson": 8,
+        "character": "怎么",
+        "pinyin": "zěnme",
+        "meaning": "Nasıl"
+    },
+    {
+        "lesson": 8,
+        "character": "走",
+        "pinyin": "zǒu",
+        "meaning": "Yürümek / Gitmek"
+    },
+    {
+        "lesson": 8,
+        "character": "路",
+        "pinyin": "lù",
+        "meaning": "Yol / Otobüs hattı numarası"
+    },
+    {
+        "lesson": 8,
+        "character": "和",
+        "pinyin": "hé",
+        "meaning": "Ve"
+    },
+    {
+        "lesson": 8,
+        "character": "公共汽车",
+        "pinyin": "gōnggòng qìchē",
+        "meaning": "Otobüs"
+    },
+    {
+        "lesson": 8,
+        "character": "都",
+        "pinyin": "dōu",
+        "meaning": "Hepsi / Her ikisi de"
+    },
+    {
+        "lesson": 8,
+        "character": "到",
+        "pinyin": "dào",
+        "meaning": "Varmak / Ulaşmak"
+    },
+    {
+        "lesson": 8,
+        "character": "骑",
+        "pinyin": "qí",
+        "meaning": "Sürmek (Bisiklet, at vb.)"
+    },
+    {
+        "lesson": 8,
+        "character": "快",
+        "pinyin": "kuài",
+        "meaning": "Hızlı"
+    },
+    {
+        "lesson": 8,
+        "character": "分钟",
+        "pinyin": "fēnzhōng",
+        "meaning": "Dakika (Süre olarak)"
+    },
+    {
+        "lesson": 8,
+        "character": "就",
+        "pinyin": "jiù",
+        "meaning": "Hemen / (Zamanın kısalığını vurgular)"
+    },
+    {
+        "lesson": 8,
+        "character": "校园",
+        "pinyin": "xiàoyuán",
+        "meaning": "Kampüs"
+    },
+    {
+        "lesson": 8,
+        "character": "东南",
+        "pinyin": "dōngnán",
+        "meaning": "Güneydoğu"
+    },
+    {
+        "lesson": 8,
+        "character": "东",
+        "pinyin": "dōng",
+        "meaning": "Doğu"
+    },
+    {
+        "lesson": 8,
+        "character": "号",
+        "pinyin": "hào",
+        "meaning": "Numara"
+    },
+    {
+        "lesson": 8,
+        "character": "房间",
+        "pinyin": "fángjiān",
+        "meaning": "Oda"
+    },
+    {
+        "lesson": 8,
+        "character": "多少",
+        "pinyin": "duōshao",
+        "meaning": "Ne kadar / Kaç (Genellikle 10'dan büyük)"
+    },
+    {
+        "lesson": 8,
+        "character": "室",
+        "pinyin": "shì",
+        "meaning": "Oda / Daire"
+    },
+    {
+        "lesson": 8,
+        "character": "电话",
+        "pinyin": "diànhuà",
+        "meaning": "Telefon"
+    },
+    {
+        "lesson": 8,
+        "character": "号码",
+        "pinyin": "hàomǎ",
+        "meaning": "Numara"
+    },
+    {
+        "lesson": 8,
+        "character": "手机",
+        "pinyin": "shǒujī",
+        "meaning": "Cep telefonu"
+    },
+    {
+        "lesson": 8,
+        "character": "等",
+        "pinyin": "děng",
+        "meaning": "Beklemek"
+    },
+    {
+        "lesson": 9,
+        "character": "师傅",
+        "pinyin": "shīfu",
+        "meaning": "Usta (Hizmet sektöründeki çalışanlara hitap)"
+    },
+    {
+        "lesson": 9,
+        "character": "买",
+        "pinyin": "mǎi",
+        "meaning": "Satın almak"
+    },
+    {
+        "lesson": 9,
+        "character": "啤酒",
+        "pinyin": "píjiǔ",
+        "meaning": "Bira"
+    },
+    {
+        "lesson": 9,
+        "character": "售货员",
+        "pinyin": "shòuhuòyuán",
+        "meaning": "Tezgahtar / Satış görevlisi"
+    },
+    {
+        "lesson": 9,
+        "character": "瓶",
+        "pinyin": "píng",
+        "meaning": "Şişe (Ölçü birimi)"
+    },
+    {
+        "lesson": 9,
+        "character": "钱",
+        "pinyin": "qián",
+        "meaning": "Para"
+    },
+    {
+        "lesson": 9,
+        "character": "块",
+        "pinyin": "kuài",
+        "meaning": "Yuan (Para birimi, sözlü kullanım)"
+    },
+    {
+        "lesson": 9,
+        "character": "两",
+        "pinyin": "liǎng",
+        "meaning": "İki (Adet belirtirken)"
+    },
+    {
+        "lesson": 9,
+        "character": "再",
+        "pinyin": "zài",
+        "meaning": "Tekrar / Bir daha"
+    },
+    {
+        "lesson": 9,
+        "character": "水",
+        "pinyin": "shuǐ",
+        "meaning": "Su"
+    },
+    {
+        "lesson": 9,
+        "character": "一共",
+        "pinyin": "yígòng",
+        "meaning": "Toplam / Hepsi"
+    },
+    {
+        "lesson": 9,
+        "character": "毛",
+        "pinyin": "máo",
+        "meaning": "Mao (Para birimi, 1/10 Yuan)"
+    },
+    {
+        "lesson": 9,
+        "character": "给",
+        "pinyin": "gěi",
+        "meaning": "Vermek"
+    },
+    {
+        "lesson": 9,
+        "character": "小姐",
+        "pinyin": "xiǎojie",
+        "meaning": "Hanımefendi / Bayan"
+    },
+    {
+        "lesson": 9,
+        "character": "看",
+        "pinyin": "kàn",
+        "meaning": "Bakmak / Görmek"
+    },
+    {
+        "lesson": 9,
+        "character": "这些",
+        "pinyin": "zhèxiē",
+        "meaning": "Bunlar"
+    },
+    {
+        "lesson": 9,
+        "character": "要",
+        "pinyin": "yào",
+        "meaning": "İstemek"
+    },
+    {
+        "lesson": 9,
+        "character": "本",
+        "pinyin": "běn",
+        "meaning": "Adet (Kitap vb. için ölçü birimi)"
+    },
+    {
+        "lesson": 9,
+        "character": "小",
+        "pinyin": "xiǎo",
+        "meaning": "Küçük"
+    },
+    {
+        "lesson": 9,
+        "character": "零钱",
+        "pinyin": "língqián",
+        "meaning": "Bozuk para"
+    },
+    {
+        "lesson": 10,
+        "character": "照片",
+        "pinyin": "zhàopiàn",
+        "meaning": "Fotoğraf"
+    },
+    {
+        "lesson": 10,
+        "character": "家",
+        "pinyin": "jiā",
+        "meaning": "Ev / Aile"
+    },
+    {
+        "lesson": 10,
+        "character": "口",
+        "pinyin": "kǒu",
+        "meaning": "Kişi (Aile üyeleri için ölçü birimi)"
+    },
+    {
+        "lesson": 10,
+        "character": "爷爷",
+        "pinyin": "yéye",
+        "meaning": "Dede (Baba tarafı)"
+    },
+    {
+        "lesson": 10,
+        "character": "奶奶",
+        "pinyin": "nǎinai",
+        "meaning": "Babaanne"
+    },
+    {
+        "lesson": 10,
+        "character": "爸爸",
+        "pinyin": "bàba",
+        "meaning": "Baba"
+    },
+    {
+        "lesson": 10,
+        "character": "妈妈",
+        "pinyin": "māma",
+        "meaning": "Anne"
+    },
+    {
+        "lesson": 10,
+        "character": "哥哥",
+        "pinyin": "gēge",
+        "meaning": "Abi"
+    },
+    {
+        "lesson": 10,
+        "character": "姐姐",
+        "pinyin": "jiějie",
+        "meaning": "Abla"
+    },
+    {
+        "lesson": 10,
+        "character": "家庭",
+        "pinyin": "jiātíng",
+        "meaning": "Aile (Kavram olarak)"
+    },
+    {
+        "lesson": 10,
+        "character": "一般",
+        "pinyin": "yìbān",
+        "meaning": "Genellikle / Sıradan"
+    },
+    {
+        "lesson": 10,
+        "character": "只",
+        "pinyin": "zhǐ",
+        "meaning": "Sadece"
+    },
+    {
+        "lesson": 10,
+        "character": "孩子",
+        "pinyin": "háizi",
+        "meaning": "Çocuk"
+    },
+    {
+        "lesson": 10,
+        "character": "弟弟",
+        "pinyin": "dìdi",
+        "meaning": "Erkek kardeş"
+    },
+    {
+        "lesson": 10,
+        "character": "妹妹",
+        "pinyin": "mèimei",
+        "meaning": "Kız kardeş"
+    },
+    {
+        "lesson": 10,
+        "character": "还",
+        "pinyin": "hái",
+        "meaning": "Daha / Ayrıca"
+    },
+    {
+        "lesson": 10,
+        "character": "条",
+        "pinyin": "tiáo",
+        "meaning": "Tane (Uzun nesneler ve bazı hayvanlar için)"
+    },
+    {
+        "lesson": 10,
+        "character": "狗",
+        "pinyin": "gǒu",
+        "meaning": "Köpek"
+    },
+    {
+        "lesson": 10,
+        "character": "这样",
+        "pinyin": "zhèyàng",
+        "meaning": "Böyle / Bu şekilde"
+    }
+]

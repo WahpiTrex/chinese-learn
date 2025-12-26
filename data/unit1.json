@@ -1,0 +1,702 @@
+[
+    {
+        "lesson": 1,
+        "character": "你好",
+        "pinyin": "nǐ hǎo",
+        "meaning": "Merhaba",
+        "type": "phrase"
+    },
+    {
+        "lesson": 1,
+        "character": "好",
+        "pinyin": "hǎo",
+        "meaning": "İyi / Güzel",
+        "type": "adjective"
+    },
+    {
+        "lesson": 1,
+        "character": "你",
+        "pinyin": "nǐ",
+        "meaning": "Sen",
+        "type": "pronoun"
+    },
+    {
+        "lesson": 1,
+        "character": "是",
+        "pinyin": "shì",
+        "meaning": "Olmak (dır/dir) / Evet",
+        "type": "verb"
+    },
+    {
+        "lesson": 1,
+        "character": "老师",
+        "pinyin": "lǎoshī",
+        "meaning": "Öğretmen",
+        "type": "noun"
+    },
+    {
+        "lesson": 1,
+        "character": "吗",
+        "pinyin": "ma",
+        "meaning": "Mı/Mi (Soru eki)",
+        "type": "particle"
+    },
+    {
+        "lesson": 1,
+        "character": "不",
+        "pinyin": "bù",
+        "meaning": "Hayır / Değil",
+        "type": "adverb"
+    },
+    {
+        "lesson": 1,
+        "character": "我",
+        "pinyin": "wǒ",
+        "meaning": "Ben",
+        "type": "pronoun"
+    },
+    {
+        "lesson": 1,
+        "character": "学生",
+        "pinyin": "xuésheng",
+        "meaning": "Öğrenci",
+        "type": "noun"
+    },
+    {
+        "lesson": 1,
+        "character": "她",
+        "pinyin": "tā",
+        "meaning": "O (Kadın)",
+        "type": "pronoun"
+    },
+    {
+        "lesson": 1,
+        "character": "谢谢",
+        "pinyin": "xièxie",
+        "meaning": "Teşekkürler",
+        "type": "verb"
+    },
+    {
+        "lesson": 1,
+        "character": "不客气",
+        "pinyin": "bú kèqi",
+        "meaning": "Rica ederim / Bir şey değil",
+        "type": "phrase"
+    },
+    {
+        "lesson": 1,
+        "character": "您",
+        "pinyin": "nín",
+        "meaning": "Siz (Kibar)",
+        "type": "pronoun"
+    },
+    {
+        "lesson": 1,
+        "character": "留学生",
+        "pinyin": "liúxuéshēng",
+        "meaning": "Yabancı öğrenci (Değişim öğrencisi)",
+        "type": "noun"
+    },
+    {
+        "lesson": 1,
+        "character": "叫",
+        "pinyin": "jiào",
+        "meaning": "Çağırmak / Adı ... olmak",
+        "type": "verb"
+    },
+    {
+        "lesson": 1,
+        "character": "什么",
+        "pinyin": "shénme",
+        "meaning": "Ne",
+        "type": "pronoun"
+    },
+    {
+        "lesson": 1,
+        "character": "名字",
+        "pinyin": "míngzi",
+        "meaning": "İsim / Ad",
+        "type": "noun"
+    },
+    {
+        "lesson": 1,
+        "character": "大卫",
+        "pinyin": "Dàwèi",
+        "meaning": "David (Özel İsim)",
+        "type": "proper_noun"
+    },
+    {
+        "lesson": 1,
+        "character": "李军",
+        "pinyin": "Lǐ Jūn",
+        "meaning": "Li Jun (Özel İsim)",
+        "type": "proper_noun"
+    },
+    {
+        "lesson": 1,
+        "character": "王",
+        "pinyin": "Wáng",
+        "meaning": "Wang (Soyadı)",
+        "type": "proper_noun"
+    },
+    {
+        "lesson": 2,
+        "character": "同学",
+        "pinyin": "tóngxué",
+        "meaning": "Sınıf arkadaşı",
+        "type": "noun"
+    },
+    {
+        "lesson": 2,
+        "character": "们",
+        "pinyin": "men",
+        "meaning": "-lar/ler (Çoğul eki)",
+        "type": "suffix"
+    },
+    {
+        "lesson": 2,
+        "character": "来",
+        "pinyin": "lái",
+        "meaning": "Gelmek / (Bir şeyi yapmaya) niyetlenmek",
+        "type": "verb"
+    },
+    {
+        "lesson": 2,
+        "character": "介绍",
+        "pinyin": "jièshào",
+        "meaning": "Tanıtmak",
+        "type": "verb"
+    },
+    {
+        "lesson": 2,
+        "character": "一下儿",
+        "pinyin": "yíxiàr",
+        "meaning": "Biraz / Bir süreliğine",
+        "type": "measure"
+    },
+    {
+        "lesson": 2,
+        "character": "姓",
+        "pinyin": "xìng",
+        "meaning": "Soyadı olmak / Soyadı",
+        "type": "verb"
+    },
+    {
+        "lesson": 2,
+        "character": "的",
+        "pinyin": "de",
+        "meaning": "-in/-ın (Sahiplik eki)",
+        "type": "particle"
+    },
+    {
+        "lesson": 2,
+        "character": "哪",
+        "pinyin": "nǎ",
+        "meaning": "Hangi",
+        "type": "pronoun"
+    },
+    {
+        "lesson": 2,
+        "character": "国",
+        "pinyin": "guó",
+        "meaning": "Ülke",
+        "type": "noun"
+    },
+    {
+        "lesson": 2,
+        "character": "人",
+        "pinyin": "rén",
+        "meaning": "İnsan / Kişi",
+        "type": "noun"
+    },
+    {
+        "lesson": 2,
+        "character": "他",
+        "pinyin": "tā",
+        "meaning": "O (Erkek)",
+        "type": "pronoun"
+    },
+    {
+        "lesson": 2,
+        "character": "认识",
+        "pinyin": "rènshi",
+        "meaning": "Tanımak / Tanışmak",
+        "type": "verb"
+    },
+    {
+        "lesson": 2,
+        "character": "很",
+        "pinyin": "hěn",
+        "meaning": "Çok",
+        "type": "adverb"
+    },
+    {
+        "lesson": 2,
+        "character": "高兴",
+        "pinyin": "gāoxìng",
+        "meaning": "Mutlu / Memnun",
+        "type": "adjective"
+    },
+    {
+        "lesson": 2,
+        "character": "也",
+        "pinyin": "yě",
+        "meaning": "De / Da (dahi)",
+        "type": "adverb"
+    },
+    {
+        "lesson": 2,
+        "character": "呢",
+        "pinyin": "ne",
+        "meaning": "Ya ...? (Soru edatı)",
+        "type": "particle"
+    },
+    {
+        "lesson": 2,
+        "character": "刘",
+        "pinyin": "Liú",
+        "meaning": "Liu (Soyadı)",
+        "type": "proper_noun"
+    },
+    {
+        "lesson": 2,
+        "character": "刘明",
+        "pinyin": "Liú Míng",
+        "meaning": "Liu Ming (Özel İsim)",
+        "type": "proper_noun"
+    },
+    {
+        "lesson": 2,
+        "character": "美国",
+        "pinyin": "Měiguó",
+        "meaning": "Amerika Birleşik Devletleri",
+        "type": "proper_noun"
+    },
+    {
+        "lesson": 2,
+        "character": "玛丽",
+        "pinyin": "Mǎlì",
+        "meaning": "Mary (Özel İsim)",
+        "type": "proper_noun"
+    },
+    {
+        "lesson": 2,
+        "character": "加拿大",
+        "pinyin": "Jiānádà",
+        "meaning": "Kanada",
+        "type": "proper_noun"
+    },
+    {
+        "lesson": 2,
+        "character": "中国",
+        "pinyin": "Zhōngguó",
+        "meaning": "Çin",
+        "type": "proper_noun"
+    },
+    {
+        "lesson": 3,
+        "character": "那",
+        "pinyin": "nà",
+        "meaning": "O / Şu (Uzaktaki)",
+        "type": "pronoun"
+    },
+    {
+        "lesson": 3,
+        "character": "谁",
+        "pinyin": "shéi",
+        "meaning": "Kim",
+        "type": "pronoun"
+    },
+    {
+        "lesson": 3,
+        "character": "书",
+        "pinyin": "shū",
+        "meaning": "Kitap",
+        "type": "noun"
+    },
+    {
+        "lesson": 3,
+        "character": "同屋",
+        "pinyin": "tóngwū",
+        "meaning": "Oda arkadaşı",
+        "type": "noun"
+    },
+    {
+        "lesson": 3,
+        "character": "汉语",
+        "pinyin": "Hànyǔ",
+        "meaning": "Çince",
+        "type": "noun"
+    },
+    {
+        "lesson": 3,
+        "character": "课本",
+        "pinyin": "kèběn",
+        "meaning": "Ders kitabı",
+        "type": "noun"
+    },
+    {
+        "lesson": 3,
+        "character": "词典",
+        "pinyin": "cídiǎn",
+        "meaning": "Sözlük",
+        "type": "noun"
+    },
+    {
+        "lesson": 3,
+        "character": "就是",
+        "pinyin": "jiù shì",
+        "meaning": "Yani / Tam olarak şudur",
+        "type": "phrase"
+    },
+    {
+        "lesson": 3,
+        "character": "日语",
+        "pinyin": "Rìyǔ",
+        "meaning": "Japonca",
+        "type": "noun"
+    },
+    {
+        "lesson": 3,
+        "character": "这",
+        "pinyin": "zhè",
+        "meaning": "Bu (Yakındaki)",
+        "type": "pronoun"
+    },
+    {
+        "lesson": 3,
+        "character": "杂志",
+        "pinyin": "zázhì",
+        "meaning": "Dergi",
+        "type": "noun"
+    },
+    {
+        "lesson": 3,
+        "character": "音乐",
+        "pinyin": "yīnyuè",
+        "meaning": "Müzik",
+        "type": "noun"
+    },
+    {
+        "lesson": 3,
+        "character": "朋友",
+        "pinyin": "péngyou",
+        "meaning": "Arkadaş",
+        "type": "noun"
+    },
+    {
+        "lesson": 3,
+        "character": "汉日词典",
+        "pinyin": "Hàn-Rì Cídiǎn",
+        "meaning": "Çince-Japonca Sözlük",
+        "type": "proper_noun"
+    },
+    {
+        "lesson": 3,
+        "character": "中村",
+        "pinyin": "Zhōngcūn",
+        "meaning": "Nakamura (Japon Soyadı)",
+        "type": "proper_noun"
+    },
+    {
+        "lesson": 3,
+        "character": "日本",
+        "pinyin": "Rìběn",
+        "meaning": "Japonya",
+        "type": "proper_noun"
+    },
+    {
+        "lesson": 4,
+        "character": "请问",
+        "pinyin": "qǐngwèn",
+        "meaning": "Pardon, sorabilir miyim?",
+        "type": "verb"
+    },
+    {
+        "lesson": 4,
+        "character": "图书馆",
+        "pinyin": "túshūguǎn",
+        "meaning": "Kütüphane",
+        "type": "noun"
+    },
+    {
+        "lesson": 4,
+        "character": "在",
+        "pinyin": "zài",
+        "meaning": "-de/-da bulunmak (konum)",
+        "type": "verb"
+    },
+    {
+        "lesson": 4,
+        "character": "哪儿",
+        "pinyin": "nǎr",
+        "meaning": "Nerede / Neresi",
+        "type": "pronoun"
+    },
+    {
+        "lesson": 4,
+        "character": "对不起",
+        "pinyin": "duìbuqǐ",
+        "meaning": "Özür dilerim",
+        "type": "phrase"
+    },
+    {
+        "lesson": 4,
+        "character": "个",
+        "pinyin": "gè",
+        "meaning": "Tane (Ölçü birimi)",
+        "type": "measure"
+    },
+    {
+        "lesson": 4,
+        "character": "学校",
+        "pinyin": "xuéxiào",
+        "meaning": "Okul",
+        "type": "noun"
+    },
+    {
+        "lesson": 4,
+        "character": "知道",
+        "pinyin": "zhīdào",
+        "meaning": "Bilmek",
+        "type": "verb"
+    },
+    {
+        "lesson": 4,
+        "character": "没关系",
+        "pinyin": "méi guānxi",
+        "meaning": "Sorun değil / Önemli değil",
+        "type": "phrase"
+    },
+    {
+        "lesson": 4,
+        "character": "这儿",
+        "pinyin": "zhèr",
+        "meaning": "Burası",
+        "type": "pronoun"
+    },
+    {
+        "lesson": 4,
+        "character": "教学",
+        "pinyin": "jiàoxué",
+        "meaning": "Öğretim / Eğitim",
+        "type": "noun"
+    },
+    {
+        "lesson": 4,
+        "character": "楼",
+        "pinyin": "lóu",
+        "meaning": "Bina / Kat",
+        "type": "noun"
+    },
+    {
+        "lesson": 4,
+        "character": "那儿",
+        "pinyin": "nàr",
+        "meaning": "Orası",
+        "type": "pronoun"
+    },
+    {
+        "lesson": 4,
+        "character": "宿舍",
+        "pinyin": "sùshè",
+        "meaning": "Yurt",
+        "type": "noun"
+    },
+    {
+        "lesson": 4,
+        "character": "北边",
+        "pinyin": "běibian",
+        "meaning": "Kuzey tarafı",
+        "type": "noun"
+    },
+    {
+        "lesson": 4,
+        "character": "左边",
+        "pinyin": "zuǒbian",
+        "meaning": "Sol taraf",
+        "type": "noun"
+    },
+    {
+        "lesson": 4,
+        "character": "右边",
+        "pinyin": "yòubian",
+        "meaning": "Sağ taraf",
+        "type": "noun"
+    },
+    {
+        "lesson": 4,
+        "character": "不用谢",
+        "pinyin": "búyòng xiè",
+        "meaning": "Bir şey değil (Teşekküre karşılık)",
+        "type": "phrase"
+    },
+    {
+        "lesson": 4,
+        "character": "不用",
+        "pinyin": "búyòng",
+        "meaning": "Gerek yok",
+        "type": "adverb"
+    },
+    {
+        "lesson": 5,
+        "character": "专业",
+        "pinyin": "zhuānyè",
+        "meaning": "Uzmanlık alanı / Bölüm",
+        "type": "noun"
+    },
+    {
+        "lesson": 5,
+        "character": "国际",
+        "pinyin": "guójì",
+        "meaning": "Uluslararası",
+        "type": "adjective"
+    },
+    {
+        "lesson": 5,
+        "character": "关系",
+        "pinyin": "guānxi",
+        "meaning": "İlişki",
+        "type": "noun"
+    },
+    {
+        "lesson": 5,
+        "character": "中文",
+        "pinyin": "Zhōngwén",
+        "meaning": "Çince",
+        "type": "noun"
+    },
+    {
+        "lesson": 5,
+        "character": "系",
+        "pinyin": "xì",
+        "meaning": "Fakülte / Bölüm",
+        "type": "noun"
+    },
+    {
+        "lesson": 5,
+        "character": "研究生",
+        "pinyin": "yánjiūshēng",
+        "meaning": "Lisansüstü öğrencisi",
+        "type": "noun"
+    },
+    {
+        "lesson": 5,
+        "character": "现代",
+        "pinyin": "xiàndài",
+        "meaning": "Modern",
+        "type": "noun"
+    },
+    {
+        "lesson": 5,
+        "character": "文学",
+        "pinyin": "wénxué",
+        "meaning": "Edebiyat",
+        "type": "noun"
+    },
+    {
+        "lesson": 5,
+        "character": "东边",
+        "pinyin": "dōngbian",
+        "meaning": "Doğu tarafı",
+        "type": "noun"
+    },
+    {
+        "lesson": 5,
+        "character": "有",
+        "pinyin": "yǒu",
+        "meaning": "Var / Sahip olmak",
+        "type": "verb"
+    },
+    {
+        "lesson": 5,
+        "character": "空儿",
+        "pinyin": "kòngr",
+        "meaning": "Boş zaman",
+        "type": "noun"
+    },
+    {
+        "lesson": 5,
+        "character": "时候",
+        "pinyin": "shíhou",
+        "meaning": "Zaman / Vakit",
+        "type": "noun"
+    },
+    {
+        "lesson": 5,
+        "character": "欢迎",
+        "pinyin": "huānyíng",
+        "meaning": "Hoş geldiniz / Karşılamak",
+        "type": "verb"
+    },
+    {
+        "lesson": 5,
+        "character": "去",
+        "pinyin": "qù",
+        "meaning": "Gitmek",
+        "type": "verb"
+    },
+    {
+        "lesson": 5,
+        "character": "玩儿",
+        "pinyin": "wánr",
+        "meaning": "Oynamak / Eğlenmek / Gezmek",
+        "type": "verb"
+    },
+    {
+        "lesson": 5,
+        "character": "卫生间",
+        "pinyin": "wèishēngjiān",
+        "meaning": "Tuvalet / Lavabo",
+        "type": "noun"
+    },
+    {
+        "lesson": 5,
+        "character": "教室",
+        "pinyin": "jiàoshì",
+        "meaning": "Sınıf / Derslik",
+        "type": "noun"
+    },
+    {
+        "lesson": 5,
+        "character": "旁边",
+        "pinyin": "pángbiān",
+        "meaning": "Yan taraf / Yanı",
+        "type": "noun"
+    },
+    {
+        "lesson": 5,
+        "character": "西边",
+        "pinyin": "xībian",
+        "meaning": "Batı tarafı",
+        "type": "noun"
+    },
+    {
+        "lesson": 5,
+        "character": "对",
+        "pinyin": "duì",
+        "meaning": "Doğru",
+        "type": "adjective"
+    },
+    {
+        "lesson": 5,
+        "character": "张红",
+        "pinyin": "Zhāng Hóng",
+        "meaning": "Zhang Hong (Özel İsim)",
+        "type": "proper_noun"
+    },
+    {
+        "lesson": 5,
+        "character": "北京大学",
+        "pinyin": "Běijīng Dàxué",
+        "meaning": "Pekin Üniversitesi",
+        "type": "proper_noun"
+    },
+    {
+        "lesson": 5,
+        "character": "清华大学",
+        "pinyin": "Qīnghuá Dàxué",
+        "meaning": "Tsinghua Üniversitesi",
+        "type": "proper_noun"
+    }
+]
